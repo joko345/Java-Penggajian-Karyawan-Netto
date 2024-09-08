@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d968a9ce-2715-432c-a6c8-206c55a10abe">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+*
+FROM
+ lembur]]>
+	</queryString>
+	<field name="nik" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="namaKaryawan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="insentif" class="java.lang.Float">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="noteInsentif" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tgl" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="f9ebc7ac-5700-4fd5-b2b4-832cb289b215" mode="Opaque" x="0" y="41" width="555" height="38" backcolor="#FFFF00"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[LAPORAN INSENTIF KARYAWAN]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="d6267017-925d-42ce-947e-ece58d2b33f5" x="57" y="8" width="66" height="24"/>
+				<imageExpression><![CDATA["C:\\Users\\JOKO PRASETYO UTOMO\\Documents\\NetBeansProjects\\Mustika_Ratu_logo.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement uuid="a94d50ca-a420-443a-a4a0-a0f92cca680b" x="12" y="4" width="30" height="31"/>
+				<imageExpression><![CDATA["C:\\Users\\JOKO PRASETYO UTOMO\\Documents\\NetBeansProjects\\Mustika\\src\\bg\\111q.jpeg"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement uuid="a06c0d79-b44c-4d33-840f-236306dee41b" x="0" y="40" width="555" height="1"/>
+			</line>
+			<line>
+				<reportElement uuid="2ee75a53-d757-411a-b8d9-00968d3ceece" x="0" y="78" width="555" height="1"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="1" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="22" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="bd2ce896-ec4f-4322-bde0-70cf8c2a6917" x="109" y="0" width="111" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Nama Karyawan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f4f91a72-82d0-419d-8e7f-aa831c24ea5e" x="220" y="0" width="111" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Jumlah Insentif]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e5098a38-f624-4881-90f7-2498f4f79c87" x="331" y="0" width="111" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Note Insentif]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="33d3f4b2-6090-4a79-aded-ab1fe2ae8877" x="442" y="0" width="113" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="04876c6a-b573-4d5d-b883-172b3da3e478" x="0" y="0" width="109" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Id Karyawan]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement uuid="0a4be591-1163-4866-b038-2f0cc48a8fce" x="0" y="0" width="109" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{nik}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="994fd6c5-7e04-4d88-b2f5-1ae796ed1389" x="109" y="0" width="111" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{namaKaryawan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5ca8de86-3906-4106-a0c4-968d721e8411" x="220" y="0" width="111" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{insentif}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d4681676-0d2b-4869-8412-7654c1c87216" x="331" y="0" width="111" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{noteInsentif}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f13636ab-0f21-41a6-adfd-61b2bfb6e397" x="442" y="0" width="113" height="20"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{tgl}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="131" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="4723a64a-e36c-4ffb-8bb5-7e01b8878e7a" x="420" y="110" width="136" height="20"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Daniel Saputra, S.Pd]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1709563e-50d2-497e-ac3c-dc6820017a12" x="422" y="13" width="134" height="20"/>
+				<textElement textAlignment="Center">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Jakarta. Senin 28 Juni 2024]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1709563e-50d2-497e-ac3c-dc6820017a12" x="421" y="33" width="134" height="20"/>
+				<textElement textAlignment="Center">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Bagian Adminitrasi]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>
